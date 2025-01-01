@@ -56,8 +56,7 @@ body.appendChild(hero)
 const div=document.createElement("div");
 div.id="Div"
 body.appendChild(div)
-
-
+ 
 const titel=document.createElement("p");
 const ol=document.createElement("ol");
 const li_gender=document.createElement("li");
