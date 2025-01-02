@@ -6,6 +6,50 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Form Event Example</h1>
+    <form id="user_inf">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="Age">Age:</label>
+        <input type="text" id="age" placeholder="Enter your Age" required>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" placeholder="Enter your gender" required>
+        <br><br>
+  
+
+        <label>Order Type:</label><br>
+        <input type="radio" id="shawerma" name="order" value="Shawarma">
+        <label for="shawerma">Shawarma</label><br>
+        <input type="radio" id="zinger" name="order" value="Zinger">
+        <label for="zinger">Zinger</label><br>
+        <input type="radio" id="burger" name="order" value="Burger">
+        <label for="burger">Burger</label><br><br>
+
+
+       <h3>Select order size: </h3>
+       <label for="sandwich">Sandwich</label>
+       <input type="checkbox" id="sandwich" value="Sandwich"><br>
+   
+       <label for="combo">Combo</label>
+       <input type="checkbox" id="combo" value="Combo"><br><br>
+
+        <br><br>
+
+
+        <button  id="submit_btn">Submit</button>
+    </form>
+
+
+
+    <h2>Order Details</h2>
+    <p id="result"> </p>
+  
 <script src="snacks-resstureant.js"></script>
 </body>
 </html>
